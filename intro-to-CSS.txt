@@ -64,3 +64,13 @@ Resource: https://specificity.keegan.st/
 Text and Fonts on CSS 
 1. font family, font size, font weight, line height, text-align, text-decoration
 Resource: https://www.cssfontstack.com/
+- font size: you can use (px, em, rem, %)
+- font weight: how bold or thin the font is
+- line height: is the spacing of letters
+- text align: will align text in right, left, center, justify
+- text decoration: will add a decoration on text (underline, linethrough)
+
+The Box Model 
+1. Padding, Margin, Box-sizing, Border and more
+- in CSS, each of the rectangular boxes is described using the standard box model. 
+- each box has four edges: the margin edge, border edge, padding edge, and content edge
