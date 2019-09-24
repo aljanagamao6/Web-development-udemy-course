@@ -1,0 +1,83 @@
+Intro to HTML 
+Resource: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+
+Objectives 
+- Write simple HTML documents 
+- Understand difference between closing and self closing tags 
+- Write tags with attributes 
+- Use MDN as a reference 
+- Given an image, write the corresponding HTML
+
+History of HTML 
+- Created in 1989/1990
+- Allowed publishing and exchanging of scientific and technical documents 
+- Allowed electronic linking of documents via hyperlinks 
+
+The General Rule 
+<tagName>Some Content</tagName>
+
+HTML Boilerplate 
+<!DOCTYPE html> - newest version of html, always on top so that the webpage will recognize it
+<html> - root of an HTML document. All other elements must be descendatans of this element.
+<head> - provides general information(metadata)about the document, including its title, links to or definitions of scripts and stylesheets
+<title>Document</title>
+</head>
+<body> - represents the CONTENT of an HTML document. There can only be ONE(1)body element in a document. 
+</body>
+</html>
+
+Comments 
+<!-- -->
+shortcut: Windows: ctrl + / Mac: cmd + /
+
+Common Tags 
+Resource: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+h1-h6 - represents six levels of section headings. h1 highest h6 lowest.
+p - use to represent a paragraph of text. 
+strong - semantic tag for bold. 
+em - (emphasis) sematic tag for italic. 
+
+There's inline and block tags. 
+Inline - are tags that doesnt take a new line. 
+Block - are tags that will occupy a new line. 
+
+Types of URL 
+1. Relative path - relative to where the directory is.
+
+Types of list 
+1. Ordered List <ol><li></li></ol>
+2. Unordered List <ul><li></li></ul>
+
+<div> and <span> tags
+
+div - group content together. it doesn't represent anything. 
+
+Attributes - adding additional information to tags
+<tag (name="value")></tag>
+<img> and <a></a> tags uses src and/or href
+src - url embedded content
+href - link content
+
+HTML Forms - getting user input
+Objectives 
+- Usage of form tag 
+- Usage of input tag 
+- Usage of label tag 
+- Validations 
+
+Form tag
+1. action - the URL to send form data to 
+2. method - the type of HTTP request(get, post request)
+Labels - adding captions to form inputs 
+
+Form validations - ability to enforce/structure to different parts of form
+adding (required) attribute to the input is the simplest form of validation in html
+type validation is when you change the type attribute value
+pattern=".{5,10}" required title="5 to 10 characters"
+pattern - is an attribute to determine the length
+
+Dropdown, Radio, Textarea
+<input type="radio"> - only used if theres 1 or 2 choices
+<input type="checkbox"> - used if theres 3 or more choices 
+select tags with option tags will create a dropdown menu
+textarea - can create inputs with more than 1 line
