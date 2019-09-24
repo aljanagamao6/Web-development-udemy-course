@@ -1,0 +1,66 @@
+Intro to CSS 
+
+Objectives 
+- Define CSS and the role that it plays in WebDev 
+- View websites before and after css has been added 
+- Understand the "general rule" for CSS syntax
+
+Cascading Style Sheets = "The adjectives"
+The General Rule 
+selector {
+    property: value; 
+    anotherProperty: value;
+}
+
+Where do we write our styles? 
+Inline, Style tag, or external stylesheet file
+
+Colors in CSS 
+- by using their color names 
+- hexadecimal code(#+string of 6 hexadecimal numbers from 0-F) 
+- rgb(Red, Green,Blue each ranges from 0-255)
+- rgba(Just like RGB but with an alpha(transparency)channel ranges from 0.0-1.0)
+
+Color and Background in CSS 
+color - to set text color 
+background - for background color
+
+CSS Selectors 
+Element, ID, Class 
+1. Element selector - select ALL instances of a given element.
+2. ID selector - selects an element with a GIVEN ID. only one per page!
+    - ID is used to target a single item. 
+    - it's a way to single something out. 
+    - in CSS, you can select an id by using hash(#)
+    - ID cannot be duplicated(meaning same name) you can use it multiple times but not same value
+3. Class selector - selects all elements with a given Class
+    - unlike ID, class can be duplicated and used multiple times in a page
+    - in CSS, you can select a class by using dot(.)
+
+CSS selectors you must know by heart
+Resource: https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+1. * - it will select EVERYTHING on the page 
+2. Descendant selector - it takes two or more selectors or tag names chained together 
+    - li a { } : this will select a because it's descendant to li
+3. Adjacent selector - it will select that comes AFTER an element
+    - h4 + ul { }
+    - using + will target ul that are adjacent(comes after) to h4 
+4. Attribute selector - way to select elements of any attribute 
+    - a[href="http://www.google.com"] { } - it will select all a tags that has an href of google.com
+    - input[type="checkbox"] { }
+5.nth of type - it takes a number and it will select every nth of specific element in a given group
+    - ul:nth-of-type(2) { }
+    - ul:nth-of-type(even) or ul:nth-of-type(odd)
+
+Specificity on CSS 
+Resource: https://specificity.keegan.st/
+    - we can have multiple styles targeting one element 
+    - whatever style is closest related to the element, css will read it first
+    - Type selectors are the least specific (li, li a, li+a)
+    - Class, Attribute, Pseudo-class selectors (.hello, input[type='text'], a:hover) 
+    - ID selectors are the most specific (#hello)
+
+Text and Fonts on CSS 
+1. font family, font size, font weight, line height, text-align, text-decoration
+Resource: https://www.cssfontstack.com/
