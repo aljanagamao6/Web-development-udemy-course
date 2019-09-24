@@ -1,3 +1,33 @@
-Test for new github account
+Internet Basics
 
-Another test run for pushing 
+Objectives 
+- understand difference between Front end and backend code 
+- understand the roles of html, css and javascript
+
+Front End VS Back End 
+1. Front end is the stuff that you see and interact with HTML CSS JS 
+2. Back end is everything else: web server, application, database, authentication, login
+3. Restaurant Analogy: The backend is everything that happens in the kitchen;
+    the front-end is what is plated and sent to your table. 
+
+HTML 
+1. HyperText markup Language
+2. Defines the structure of a webpage 
+    - "put an image here" 
+    - "put a form here" 
+3. The "nouns" of a webpage
+
+CSS
+1. Cascading Style Sheets 
+2. Defines the style of HTML 
+    - "make all text purple"
+    - "give the first image a yellow border"
+3. The "adjectives" of a webpage
+
+JAVASCRIPT 
+1. Adds logic and interactivity to a page 
+    - "Do some math" 
+    - "Change color when the user clicks"
+    - "load new data from twitter"
+2. The actions or "verbs" of a webpage
+
